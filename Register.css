@@ -1,0 +1,193 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#body {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#banner {
+    margin-top: 2px;
+}
+
+#menu {
+    width: 1000px;
+    height: 50px;
+    background-color: #192041;
+}
+
+#menu ul {
+    text-align: center;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+#tittle {
+    height: 80px;
+}
+
+#tittle h1 {
+    text-align: center;
+    color: #192041;
+}
+
+#tittle .khung {
+    margin-top: -17px;
+    border: 0.5px solid #192041;
+}
+
+#menu ul li {
+    margin: 0px 20px;
+    line-height: 50px;
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu ul li:hover {
+    background-color: black;
+}
+
+#content {
+    width: 1000px;
+}
+
+.tittle {
+    padding-left: 50px;
+}
+
+.khung {
+    margin-top: 30px;
+    margin-left: 250px;
+    width: 500px;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #192041;
+}
+
+#frames2,
+.select,
+#frames {
+    width: 405px;
+    height: 40px;
+    border: 2px solid rgb(194, 192, 192);
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+#noidung {
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+.nho {
+    margin-left: 10px;
+    line-height: 40px;
+}
+
+.dk {
+    margin-bottom: px;
+    width: 400px;
+    height: 35px;
+}
+
+.select {
+    padding-left: 10px;
+    width: 407px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.note {
+    width: 400px;
+    height: 70px;
+    border: 2px solid rgb(194, 192, 192);
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: black;
+}
+
+.button {
+    width: 70px;
+    height: 30px;
+    color: white;
+    background-color: #192041;
+    border: none;
+    cursor: pointer;
+}
+
+.but {
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.p {
+    margin-top: 0;
+    color: red;
+}
+
+#footer {
+    margin-top: 20px;
+    height: 40px;
+    background-color: #192041;
+}
+
+#footer p {
+    line-height: 40px;
+    font-size: large;
+    text-align: initial;
+    text-align: center;
+    color: white;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input {
+    font-size: 20px;
+    border: 2px solid rgb(194, 192, 192);
+    border-radius: 5px;
+    background-color: none;
+}
+
+.form-group input:focus {
+    border-color: gray;
+    outline: 0;
+    background-color: none;
+    font-size: 20px;
+}
+
+span {
+    visibility: hidden;
+}
+
+.form-group.error span {
+    visibility: visible;
+    color: red;
+}
+
+.form-group.error .note,
+.form-group.error .dk {
+    background-color: orangered;
+}
+
+.form-group.success .note,
+.form-group.success .dk {
+    border: 2px solid green;
+}

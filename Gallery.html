@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="Gallery.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="body">
+        <div id="logo">
+            <center>
+                <img src="image/logo3.jpg" width="200px" height="90px">
+            </center>
+        </div>
+        <div id="banner">
+            <img src="image/banner1.jpg" width="100%" height="450px">
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="/Gallery.html">Bộ sưu tập</a></li>
+                <li><a href="/Register.html">Đăng ký</a></li>
+                <li><a href="/Selling.html">Bán hàng</a></li>
+            </ul>
+        </div>
+        <div id="tittle">
+            <h1>Bộ sưu tập ảnh</h1>
+            <center>
+                <div class="khung"></div>
+            </center>
+        </div>
+
+        <!-- slide show -->
+        <div class="slider">
+            <button id="prev"><</button>
+            <button id="next">></button>
+
+            <div class="slide-show">
+                <div class="item active">
+                    <img src="image/anh1.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="image/anh2.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="image/anh3.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="image/anh4.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="image/anh5.jpg" alt="">
+                </div>
+            </div>
+
+
+
+            <p id="title">Ảnh
+                <span id="number">1</span> /
+                <span id="demo">5</span>
+            </p>
+        </div>
+        <!-- end slide show -->
+
+
+        <div id="footer">
+            <p>BUI THIN LONG- PH22048</p>
+        </div>
+    </div>
+
+    <script src="Gallery.js"></script>
+</body>
+
+</html>

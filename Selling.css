@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    margin: 20px;
+}
+
+#banner {
+    margin-top: 2px;
+}
+
+#menu {
+    width: 100%;
+    height: 50px;
+    background-color: #192041;
+}
+
+#menu ul {
+    text-align: center;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+.tittle {
+    margin-top: 10px;
+    height: 80px;
+}
+
+.tittle h1 {
+    text-align: center;
+    color: white;
+}
+
+#tittle .khung {
+    margin-top: -17px;
+    border: 0.5px solid rgb(252, 92, 118);
+}
+
+#menu ul li {
+    margin: 0px 20px;
+    line-height: 50px;
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu ul li:hover {
+    background-color: black;
+}
+
+.tittle h2 {
+    text-align: center;
+}
+
+.mucgia {
+    text-align: center;
+}
+
+.khung {
+    margin-top: 7px;
+    width: 560px;
+    border: 0.1px solid #192041;
+}
+
+table {
+    margin-top: 20px;
+}
+
+#checkAll,
+thead{
+    text-align: center;
+}
+.check {
+    width: 15px;
+    height: 15px;
+    font-size: 40px;
+}
+
+#footer {
+    margin-top: 20px;
+    height: 40px;
+    background-color: #192041;
+}
+
+#footer p {
+    line-height: 40px;
+    font-size: large;
+    text-align: initial;
+    text-align: center;
+    color: white;
+}

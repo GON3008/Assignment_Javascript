@@ -1,0 +1,144 @@
+body {
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px;
+}
+
+#body {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#banner {
+    margin-top: 2px;
+}
+
+#menu {
+    width: 1000px;
+    height: 50px;
+    background-color: #192041;
+}
+
+#menu ul {
+    text-align: center;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+#tittle {
+    height: 80px;
+}
+
+#tittle h1 {
+    text-align: center;
+    color: #192041;
+}
+
+#tittle .khung {
+    width: 700px;
+    margin-top: -17px;
+    border: 0.5px solid #192041;
+}
+
+#menu ul li {
+    margin: 0px 20px;
+    line-height: 50px;
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu ul li:hover {
+    background-color: black;
+}
+
+p {
+    color: white;
+    line-height: 30px;
+    text-align: center;
+}
+
+#title {
+    text-align: center;
+    background-color: #192041;
+    width: 90px;
+    height: 30px;
+    top: 91%;
+    left: 45%;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+#footer {
+    margin-top: 20px;
+    height: 40px;
+    background-color: #192041;
+}
+
+#footer p {
+    line-height: 40px;
+    font-size: large;
+    text-align: center;
+}
+
+
+/*slide show*/
+
+.slider {
+    width: 700px;
+    height: 500px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider #prev,
+.slider #next {
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    width: 40px;
+    font-size: 35px;
+    border: none;
+    background-color: #192041;
+    color: white;
+    top: 50%;
+    cursor: pointer;
+}
+
+.slider #next {
+    left: 94%;
+}
+
+.slider #prev:hover,
+.slider #next:hover {
+    background-color: red;
+}
+
+.item {
+    display: none;
+}
+
+.item.active {
+    display: block;
+}
+
+.item img {
+    width: 700px;
+    height: 500px;
+    animation: zoom 1s ease;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
